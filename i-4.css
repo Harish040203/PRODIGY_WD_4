@@ -1,0 +1,126 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f7f7f7;
+    color: #333;
+    transition: background-color 0.3s ease;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Header Styles */
+header {
+    background-color: #663cff;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    border-bottom: 5px solid #ffffff;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-info {
+    text-align: left;
+}
+
+.header-info h1 {
+    margin: 5px 0;
+    font-size: 36px;
+    font-family: 'Lobster', cursive;
+    transition: color 0.3s ease;
+}
+
+.header-info h2 {
+    margin-bottom: 10px;
+    font-family: 'Lobster', cursive;
+}
+
+.header-info p {
+    margin: 5px 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    border: 5px solid #ffffff;
+    transition: transform 0.3s ease;
+}
+
+img:hover {
+    transform: scale(1.1);
+}
+
+/* Section Styles */
+section {
+    background: linear-gradient(to bottom, #f9f9f9, #dcdcdc);
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+}
+
+section:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+section h2 {
+    font-size: 28px;
+    margin-bottom: 15px;
+    color: #663cff;
+    font-family: 'Lobster', cursive;
+}
+
+section p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #666;
+    font-family: 'Roboto', sans-serif;
+}
+
+section ul {
+    list-style: none;
+    padding: 0;
+}
+
+section ul li {
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: #666;
+}
+
+section ul li:before {
+    content: "\2022";
+    color: #333;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #663cff;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    bottom: 0;
+    width: 100%;
+    border-top: 5px solid #ffffff;
+}
